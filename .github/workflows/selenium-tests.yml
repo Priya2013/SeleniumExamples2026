@@ -23,7 +23,7 @@ jobs:
           cache: 'maven'
 
       - name: Run TestNG Suite
-        run: mvn clean test -Dsurefire.suiteXmlFiles=testng.xml -Dmaven.compiler.executable=javac -Dmaven.compiler.fork=false
+        run: xvfb-run --auto-servernum mvn clean test -Dsurefire.suiteXmlFiles=testng.xml
 
       - name: Upload TestNG & Surefire Reports
         if: always()
