@@ -1,0 +1,16 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.inlineSuggest.enabled": false,
+    "terminal.integrated.env.windows": {
+        "JAVA_HOME": "${userHome}\\.jdk\\jdk-25\\jdk-25.0.4.1+1",
+        "PATH": "${userHome}\\.jdk\\jdk-25\\jdk-25.0.4.1+1\\bin;${userHome}\\tools\\apache-maven-3.10.1\\bin;${env:PATH}"
+    },
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.debug.settings.onBuildFailureProceed": true
+}
